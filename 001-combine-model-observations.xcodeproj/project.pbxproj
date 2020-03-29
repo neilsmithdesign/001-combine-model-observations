@@ -26,6 +26,7 @@
 		8C784EDE24306F7E007A8492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C784EE424306FA8007A8492 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		8C784EE624306FE3007A8492 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C784EE8243072D8007A8492 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +43,7 @@
 		8C784EC424306F7D007A8492 = {
 			isa = PBXGroup;
 			children = (
+				8C784EE8243072D8007A8492 /* README.md */,
 				8C784ECF24306F7D007A8492 /* 001-combine-model-observations */,
 				8C784ECE24306F7D007A8492 /* Products */,
 			);
