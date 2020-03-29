@@ -14,6 +14,7 @@
 		8C784EDD24306F7E007A8492 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C784EDB24306F7E007A8492 /* LaunchScreen.storyboard */; };
 		8C784EE524306FA8007A8492 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C784EE424306FA8007A8492 /* Model.swift */; };
 		8C784EE724306FE3007A8492 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C784EE624306FE3007A8492 /* ViewController.swift */; };
+		8C784EEA2430778C007A8492 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 8C784EE92430778C007A8492 /* LICENSE.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		8C784EE424306FA8007A8492 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		8C784EE624306FE3007A8492 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8C784EE8243072D8007A8492 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8C784EE92430778C007A8492 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 		8C784EC424306F7D007A8492 = {
 			isa = PBXGroup;
 			children = (
+				8C784EE92430778C007A8492 /* LICENSE.md */,
 				8C784EE8243072D8007A8492 /* README.md */,
 				8C784ECF24306F7D007A8492 /* 001-combine-model-observations */,
 				8C784ECE24306F7D007A8492 /* Products */,
@@ -138,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C784EEA2430778C007A8492 /* LICENSE.md in Resources */,
 				8C784EDD24306F7E007A8492 /* LaunchScreen.storyboard in Resources */,
 				8C784EDA24306F7E007A8492 /* Preview Assets.xcassets in Resources */,
 				8C784ED724306F7E007A8492 /* Assets.xcassets in Resources */,
