@@ -13,6 +13,7 @@
 		8C784ED724306F7E007A8492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C784ED624306F7E007A8492 /* Assets.xcassets */; };
 		8C784EDA24306F7E007A8492 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C784ED924306F7E007A8492 /* Preview Assets.xcassets */; };
 		8C784EDD24306F7E007A8492 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C784EDB24306F7E007A8492 /* LaunchScreen.storyboard */; };
+		8C784EE524306FA8007A8492 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C784EE424306FA8007A8492 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8C784ED924306F7E007A8492 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8C784EDC24306F7E007A8492 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C784EDE24306F7E007A8492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C784EE424306FA8007A8492 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				8C784ED024306F7D007A8492 /* AppDelegate.swift */,
 				8C784ED224306F7D007A8492 /* SceneDelegate.swift */,
+				8C784EE424306FA8007A8492 /* Model.swift */,
 				8C784ED424306F7D007A8492 /* ContentView.swift */,
 				8C784ED624306F7E007A8492 /* Assets.xcassets */,
 				8C784EDB24306F7E007A8492 /* LaunchScreen.storyboard */,
@@ -149,6 +152,7 @@
 				8C784ED124306F7D007A8492 /* AppDelegate.swift in Sources */,
 				8C784ED324306F7D007A8492 /* SceneDelegate.swift in Sources */,
 				8C784ED524306F7D007A8492 /* ContentView.swift in Sources */,
+				8C784EE524306FA8007A8492 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
