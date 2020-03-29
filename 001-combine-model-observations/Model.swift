@@ -1,11 +1,3 @@
-//
-//  Model.swift
-//  001-combine-model-observations
-//
-//  Created by Neil Smith on 29/03/2020.
-//  Copyright © 2020 Neil Smith Design LTD. All rights reserved.
-//
-
 import Foundation
 import Combine
 
