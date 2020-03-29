@@ -26,7 +26,6 @@ final class Model {
     func insert(item: Int, at indexPath: IndexPath) {
         let validRow = max(0, min(indexPath.row, items.count))
         items.insert(item, at: validRow)
-        notify(of: .insertedAt([IndexPath(row: validRow, section: 0)]))
         onChange.send(.insertedAt([IndexPath(row: validRow, section: 0)]))
     }
     
@@ -47,11 +46,9 @@ final class Model {
     }
 }
 
+
+// MARK: - Model updates broadcasted by NotificationCenter
 private extension Model {
-    
-    func notify(of change: Change) {
-        self.onChange.send(change)
-    }
     
     func sendNotification(for change: Change) {
         NotificationCenter.default.post(
